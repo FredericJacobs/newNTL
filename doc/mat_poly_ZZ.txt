@@ -1,0 +1,21 @@
+
+/**************************************************************************\
+
+MODULE: mat_poly_ZZ
+
+SUMMARY:
+
+Routine for computing the characteristic polynomial of a matrix over ZZ.
+
+
+
+\**************************************************************************/
+
+
+#include <newNTL/mat_ZZ.h>
+#include <newNTL/ZZX.h>
+
+void CharPoly(ZZX& f, const mat_ZZ& M);
+// f = characteristic polynomial of M
+
+

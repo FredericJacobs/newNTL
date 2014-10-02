@@ -1,0 +1,28 @@
+
+rm -r unix
+mkdir unix
+mkdir unix/src
+mkdir unix/include
+mkdir unix/include/newNTL
+mkdir unix/doc
+
+cp ../README unix/README
+
+for i in $1
+do
+   cp $i unix/src/$i
+done
+
+for i in $2
+do
+   cp ../include/newNTL/$i unix/include/newNTL/$i
+done
+
+
+for i in $3
+do
+   cp ../doc/$i unix/doc/$i
+done
+
+cp ../include/newNTL/def_config.h unix/include/newNTL/config.h
+cp def_makefile unix/src/makefile

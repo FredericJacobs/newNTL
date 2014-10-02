@@ -1,0 +1,106 @@
+
+Here is a list of the macro names that have changed.
+As you can see, most of these are anyway undocumented,
+and you probably never knew they existed.
+Also changed, but not listed here, are the macros used
+to prevent double inclusion of ".h" files.
+
+Also, the identifiers like INIT_VAL, INIT_SIZE, INIT_FFT
+are no longer macros, but are defined to be constant objects
+of particular classes.  Their names do not change.
+
+ZZ_ARITH_RIGHT_SHIFT -> newNTL_ARITH_RIGHT_SHIFT
+ZZ_BITS_PER_INT -> newNTL_BITS_PER_INT
+ZZ_BITS_PER_LONG -> newNTL_BITS_PER_LONG
+ZZ_DOUBLES_LOW_HIGH -> newNTL_DOUBLES_LOW_HIGH
+ZZ_DOUBLE_PRECISION -> newNTL_DOUBLE_PRECISION
+ZZ_EXT_DOUBLE -> newNTL_EXT_DOUBLE
+ZZ_FDOUBLE_PRECISION -> newNTL_FDOUBLE_PRECISION
+ZZ_FRADIX -> newNTL_FRADIX
+ZZ_FRADIX_INV -> newNTL_FRADIX_INV
+ZZ_FetchHiLo -> newNTL_FetchHiLo
+ZZ_FetchLo -> newNTL_FetchLo
+ZZ_HI_WD -> newNTL_HI_WD
+ZZ_LO_WD -> newNTL_LO_WD
+ZZ_MAX_INT -> newNTL_MAX_INT
+ZZ_MAX_LONG -> newNTL_MAX_LONG
+ZZ_MIN_INT -> newNTL_MIN_INT
+ZZ_MIN_LONG -> newNTL_MIN_LONG
+ZZ_NBITS -> newNTL_NBITS
+ZZ_NBITSH -> newNTL_NBITSH
+ZZ_NBITS_MAX -> newNTL_NBITS_MAX
+ZZ_newNTL_SINGLE_MUL_OK -> newNTL_SINGLE_MUL_OK
+ZZ_PRIME_BND -> newNTL_PRIME_BND
+ZZ_RADIX -> newNTL_RADIX
+ZZ_RADIXM -> newNTL_RADIXM
+ZZ_RADIXROOT -> newNTL_RADIXROOT
+ZZ_RADIXROOTM -> newNTL_RADIXROOTM
+
+ntl_eq_matrix_decl -> newNTL_eq_matrix_decl
+ntl_eq_matrix_impl -> newNTL_eq_matrix_impl
+ntl_eq_vector_decl -> newNTL_eq_vector_decl
+ntl_eq_vector_impl -> newNTL_eq_vector_impl
+
+ntl_io_matrix_decl -> newNTL_io_matrix_decl
+ntl_io_matrix_impl -> newNTL_io_matrix_impl
+ntl_io_vector_decl -> newNTL_io_vector_decl
+ntl_io_vector_impl -> newNTL_io_vector_impl
+
+ntl_matrix_decl -> newNTL_matrix_decl
+ntl_matrix_impl -> newNTL_matrix_impl
+
+ntl_pair_decl -> newNTL_pair_decl
+ntl_pair_eq_decl -> newNTL_pair_eq_decl
+ntl_pair_eq_impl -> newNTL_pair_eq_impl
+ntl_pair_impl -> newNTL_pair_impl
+ntl_pair_io_decl -> newNTL_pair_io_decl
+ntl_pair_io_impl -> newNTL_pair_io_impl
+
+ntl_vector_decl -> newNTL_vector_decl
+ntl_vector_default -> newNTL_vector_default
+ntl_vector_impl -> newNTL_vector_impl
+ntl_vector_impl_plain -> newNTL_vector_impl_plain
+
+BB_HALF_MUL_CODE -> newNTL_BB_HALF_MUL_CODE
+BB_MUL_CODE -> newNTL_BB_MUL_CODE
+BB_REV_CODE -> newNTL_BB_REV_CODE
+BB_SQR_CODE -> newNTL_BB_SQR_CODE
+
+FFTFudge -> newNTL_FFTFudge
+FFTMaxRoot -> newNTL_FFTMaxRoot
+FFTMaxRootBnd -> newNTL_FFTMaxRootBnd
+
+QUAD_FLOAT_SPLIT -> newNTL_QUAD_FLOAT_SPLIT
+
+WV_newNTL_RANGE_CHECK_CODE -> newNTL_WV_RANGE_CHECK_CODE
+
+WordVectorExpansionRatio -> newNTL_WordVectorExpansionRatio
+WordVectorInputBlock -> newNTL_WordVectorInputBlock
+WordVectorMinAlloc -> newNTL_WordVectorMinAlloc
+
+XD_BOUND -> newNTL_XD_BOUND
+XD_BOUND_INV -> newNTL_XD_BOUND_INV
+XD_HBOUND -> newNTL_XD_HBOUND
+XD_HBOUND_INV -> newNTL_XD_HBOUND_INV
+
+ZZ_pRegister -> newNTL_ZZ_pRegister
+
+ZZ_pX_BERMASS_CROSSOVER -> newNTL_ZZ_pX_BERMASS_CROSSOVER
+ZZ_pX_DIV_CROSSOVER -> newNTL_ZZ_pX_DIV_CROSSOVER
+ZZ_pX_FFT_CROSSOVER -> newNTL_ZZ_pX_FFT_CROSSOVER
+ZZ_pX_GCD_CROSSOVER -> newNTL_ZZ_pX_GCD_CROSSOVER
+ZZ_pX_HalfGCD_CROSSOVER -> newNTL_ZZ_pX_HalfGCD_CROSSOVER
+ZZ_pX_NEWTON_CROSSOVER -> newNTL_ZZ_pX_NEWTON_CROSSOVER
+ZZ_pX_TRACE_CROSSOVER -> newNTL_ZZ_pX_TRACE_CROSSOVER
+
+zz_pRegister -> newNTL_zz_pRegister
+
+zz_pX_BERMASS_CROSSOVER -> newNTL_zz_pX_BERMASS_CROSSOVER
+zz_pX_DIV_CROSSOVER -> newNTL_zz_pX_DIV_CROSSOVER
+zz_pX_GCD_CROSSOVER -> newNTL_zz_pX_GCD_CROSSOVER
+zz_pX_HalfGCD_CROSSOVER -> newNTL_zz_pX_HalfGCD_CROSSOVER
+zz_pX_MOD_CROSSOVER -> newNTL_zz_pX_MOD_CROSSOVER
+zz_pX_MUL_CROSSOVER -> newNTL_zz_pX_MUL_CROSSOVER
+zz_pX_NEWTON_CROSSOVER -> newNTL_zz_pX_NEWTON_CROSSOVER
+zz_pX_TRACE_CROSSOVER -> newNTL_zz_pX_TRACE_CROSSOVER
+
